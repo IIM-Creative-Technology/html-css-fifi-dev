@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/style_home.css">
+    <!-- Font family modèle lien -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/link.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.min.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <!-- HEADER AVEC LA NAV -->
+    <header>
+        <div class="hidden">
+            <!-- ___NAV___ -->
+            <nav>
+                <a href="home2.html">
+                    <i class="fas fa-home"></i>
+                    <span>Accueil</span>
+                </a>
+                <a href="surveys.html">
+                    <i class="fas fa-poll-h"></i>
+                    <span>Sondages</span>
+                </a>
+                <a href="classements.html">
+                    <i class="fas fa-trophy"></i>
+                    <span>Classement</span>
+                </a>
+            </nav>
+            <!-- 
+            
+            -->
+
+            <div class="right_nav">
+                <a href="favorites.html">
+                    <i class="far fa-heart"></i>
+                </a>
+                <a href="connexion.html">
+                    <i class="fas fa-user"></i>
+                </a>
+            </div>
+        </div>
+        <nav class="nav">
+                <a href="home2.html" class="nav__link">
+                    <i class="fas fa-home">Home</i>
+                    <span class="nav__text">Home</span>
+                </a>
+                <a href="surveys.html" class="nav__link nav__link--active">
+                    <i class="fas fa-poll-h">Sondages</i>
+                    <span class="nav__text">Sondages</span>
+                </a>
+                <a href="classements.html" class="nav__link">
+                    <i class="fas fa-trophy">Classement</i>
+                    <span class="nav__text">Classement</span>
+                </a>
+                <a href="favorites.html" class="nav__link">
+                    <i class="far fa-heart">Favoris</i>
+                    <span class="nav__text">Favoris</span>
+                </a>
+                <a href="profil.html" class="nav__link">
+                    <i class="fas fa-user">Profile</i>
+                    <span class="nav__text">Profile</span>
+                </a>
+            </nav>
+        <!-- ___DIV avec le nom___ -->
+        <h1> The Neon Survey Show </h1>
+        <div class="program">
+            <h3>Au programme</h3>
+            <h3><i class="fas fa-poll-h"></i> Des nombreux Sondages</h3>
+            <h3><i class="fas fa-trophy"></i> Des classements selon des categories</h3>
+            <h3>En solo <i class="fas fa-user"></i> ou entre amis <i class="fas fa-users"></i></h3>
+        </div>
+        <div>
+            <img class="img_smartphone" src="img/smartphone_survey.png" alt="">
+            <img class="img_tablette" style="width: 500px;" src="img/tablette_survey.png" alt="">
+            <img class="img_desktoplaptop" style="width: 50vw;" src="img/desktoplaptop_survey.png" alt="">
+
+        </div>
+    </header>
+
+
+    <!-- SECTION SLIDER -->
+    <section>
+        <h2>SONDAGES LES PLUS POULAIRES</h2>
+        <p>Cliquez sur <span>faire</span> pour faire un de nos sondages les plus populaires du moment</p>
+        <!-- partial:index.partial.html -->
+        <!-- Slider main container -->
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- __Slides__ -->
+                <!-- covid -->
+                <div class="swiper-slide" style="width: 320px;">
+                    <div class="picture">
+                        <img src="img/covid.jpg" alt="">
+                    </div>
+                    <div class="detail">
+                        <h3>Marie Edwards</h3>
+                        <span><a href="#">Faire</a></span>
+                    </div>
+                </div>
+                <!-- Aya -->
+                <div class="swiper-slide" style="width: 320px;">
+                    <div class="picture">
+                        <img src="img/nakamura.jpg" alt="">
+                    </div>
+                    <div class="detail">
+                        <h3>Un feat inatendu</h3>
+                        <span><a href="#">Faire</a></span>
+                    </div>
+                </div>
+                <!-- 7 -->
+                <div class="swiper-slide" style="width: 320px;">
+                    <div class="picture">
+                        <img src="img/7.jpg" alt="">
+                    </div>
+                    <div class="detail">
+                        <h3>Le 7 entre 0 et 100</h3>
+                        <span><a href="#">Faire</a></span>
+                    </div>
+                </div>
+                <!-- Fantasy -->
+                <div class="swiper-slide" style="width: 320px;">
+                    <div class="picture">
+                        <img src="img/alice-alinari-HUqxgjORAnw-unsplash.jpg" alt="">
+                    </div>
+                    <div class="detail">
+                        <h3>Crystal Davidson</h3>
+                        <span><a href="#">Faire</a></span>
+                    </div>
+                </div>
+                <!-- USA -->
+                <div class="swiper-slide" style="width: 320px;">
+                    <div class="picture">
+                        <img src="img/usa.jpg" alt="">
+                    </div>
+                    <div class="detail">
+                        <h3>President</h3>
+                        <span><a href="#">Faire</a></span>
+                    </div>
+                </div>
+                <!-- dancer -->
+                <div class="swiper-slide" style="width: 320px;">
+                    <div class="picture">
+                        <img src="img/hanson-lu-e7NzjDo3_hY-unsplash.jpg" alt="">
+                    </div>
+                    <div class="detail">
+                        <h3>The best kpop dancer is ...</h3>
+                        <span><a href="survey_dance.html">Faire</a></span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- ____FOOTER____ -->
+    <footer>
+        <P>Une question ?</P>
+        <button>Contactez-nous</button>
+        <p>
+            © - WEBSITE MADE WITH LOVE BY <img src="img/fifi_white.png" alt="" style="width: 20px;"> - ©
+        </p>
+    </footer>
+
+
+    <!-- ____SCRIPTS____ -->
+
+    <!-- lien icones font awesome -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js'></script>
+    <!-- lien swiper javascript -->
+    <script src="js/swipe.js"></script>
+
+</body>
+
+</html>
