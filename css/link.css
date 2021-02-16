@@ -1,0 +1,176 @@
+html,
+body {
+    background-color: black;
+    margin: 0;
+    height: 100%;
+    color: white;
+    font-family: 'Source Serif Pro', serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    margin-top: 20px;
+    margin-left: 2%;
+}
+
+nav a {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: all 0.7s ease;
+}
+
+nav a span {
+    color: white;
+    display: none;
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+    border-color: blue;
+}
+
+nav i:hover + span {
+    display: contents;
+
+
+}
+
+.fa {
+    color: white;
+    font-size: 25px;
+}
+
+.right_nav {
+    position: absolute;
+    right: 5%;
+    top: 30px;
+
+}
+
+
+.right_nav a {
+    font-size: 30px;
+    color: white;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+/* _____________FOOTER____________ */
+footer {
+    text-align: center;
+}
+
+footer button {
+    border-radius: 4px;
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    display: flex;
+    overflow-x: auto;
+    z-index: 10;
+}
+
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #444444;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.nav__link:hover {
+    background-color: #eeeeee;
+}
+
+.nav__link--active {
+    color: #009578;
+}
+
+.nav__icon {
+    font-size: 18px;
+}
+
+
+
+
+
+/* _____________FOOTER____________ */
+
+
+
+@media screen and (max-width: 480px) {
+    
+    .hidden {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    
+    .nav{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
